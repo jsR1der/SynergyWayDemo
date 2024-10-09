@@ -1,8 +1,7 @@
 import { Classes } from '@blueprintjs/core';
 import classNames from 'classnames';
 import React from 'react';
-
-import { MosaicWindowContext } from '../src';
+import { MosaicWindowContext } from 'react-mosaic-component';
 
 export class CloseAdditionalControlsButton extends React.PureComponent {
   static contextType = MosaicWindowContext;
